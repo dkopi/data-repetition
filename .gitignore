@@ -1,0 +1,7 @@
+.venv
+vllm
+datasets
+unsloth_compiled_cache
+ckpts
+logs
+__pycache__

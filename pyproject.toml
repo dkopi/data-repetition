@@ -1,0 +1,17 @@
+[project]
+name = "data-repetition"
+version = "0.0.1"
+requires-python = "==3.12.*"
+dependencies = [
+    "bitsandbytes>=0.49.0",
+    "datasets<4.4.0",
+    "math-verify>=0.9.0",
+    "seaborn>=0.13.2",
+    "torch==2.8.0",
+    "transformers>=4.57.3",
+    "trl==0.24.0",
+    "unsloth==2026.1.2",
+    "unsloth-zoo==2026.1.2",
+    "vllm==0.10.2",
+    "wandb>=0.23.1",
+]
