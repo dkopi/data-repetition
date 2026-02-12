@@ -21,9 +21,9 @@ python -u train.py\
     --wandb_group $wandb_group \
     --wandb
 
-python eval.py --run_id $SLURM_JOB_ID --model $model --tokenizer $tokenizer --task aime24
-python eval.py --run_id $SLURM_JOB_ID --model $model --tokenizer $tokenizer --task aime25
-python eval.py --run_id $SLURM_JOB_ID --model $model --tokenizer $tokenizer --task gpqa --n 4
+python eval.py --run_id $SLURM_JOB_ID --model ckpts/$SLURM_JOB_ID --tokenizer $tokenizer --task aime24
+python eval.py --run_id $SLURM_JOB_ID --model ckpts/$SLURM_JOB_ID --tokenizer $tokenizer --task aime25
+python eval.py --run_id $SLURM_JOB_ID --model ckpts/$SLURM_JOB_ID --tokenizer $tokenizer --task gpqa --n 4
 
 }
 
