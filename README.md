@@ -14,6 +14,10 @@ uv sync
 
 Alternatively, see `pyproject.toml` for the full list of dependencies (requires Python 3.12).
 
+## Checkpoints
+
+We have uploaded all 45 checkpoints of Olmo-3 7B Base trained on Dolci SFT dataset to [HuggingFace](https://huggingface.co/dakopi/olmo3-7b_data-repetition).
+
 ## Datasets
 
 The datasets used in our experiments are available in the [HuggingFace collection](https://huggingface.co/collections/dakopi/data-repetition).
